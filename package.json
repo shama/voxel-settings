@@ -25,10 +25,7 @@
     "node": ">= 0.8.0"
   },
   "dependencies": {
+    "cettings": "~0.1.0"
   },
-  "devDependencies": {
-  },
-  "peerDependencies": {
-    "cettings": ">= 0.1.0"
-  }
+  "devDependencies": {}
 }

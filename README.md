@@ -1,6 +1,6 @@
 # voxel-settings
 
-voxel.js config for [cettings](https://github.com/shama/cettings).
+voxel.js settings UI
 
 ** Work in progress **
 
@@ -9,7 +9,7 @@ voxel.js config for [cettings](https://github.com/shama/cettings).
 [View this example](http://shama.github.io/cettings)
 
 ```js
-var settings = require('cettings')(require('voxel-settings')(game))
+var settings = require('voxel-settings')(game)
 ```
 
 ## install

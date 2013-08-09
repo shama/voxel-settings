@@ -1,3 +1,5 @@
+var cettings = require('cettings')
+
 module.exports = function(game) {
   function bindkey(key, val) {
     key = key.split('.')
@@ -35,5 +37,5 @@ module.exports = function(game) {
     }
   }
 
-  return config
+  return cettings(config)
 }
